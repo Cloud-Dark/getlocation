@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <p>Click the button to get your coordinates.</p>
+    <p>klik tombol dibawah ini untuk mendapatkan lokasi anda</p>
+    <p>pastikan anda sudah mengizinkan lokasi anda di lacak oleh browser anda</p>
     <button type="button" class="btn btn-primary" onclick="getLocation()">
-      Try It.
+      temukan lokasi saya
     </button>
     <p id="coordinate"></p>
     <pre id="json"></pre>
